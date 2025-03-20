@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Noto Sans", sans-serif;
+}
+
+/* body{
+    background-color: black;
+} */
+
+.interface{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+header .btn-contato button, .central button{
+    font-size: 18px;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    cursor: pointer;
+    transition: .5s;
+}
+
+/* Header */
+
+header{
+    width: 100%;
+    padding: 20px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+header .interface{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo img{
+    max-width: 110px;
+}
+
+header .menu-desktop nav ul{
+    list-style-type: none;
+}
+
+header .menu-desktop nav ul li{
+    display: inline-block;
+    margin: 0 40px
+}
+
+header .menu-desktop nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    transition: .2s;
+}
+
+.menu-desktop nav a:hover{
+    transform: scale(1.05);
+}
+
+header .btn-contato button{
+    width: 140px;
+    height: 50px;
+}
+
+header .btn-contato button:hover, .central button:hover{
+    background-color: white;
+    color: black;
+}
+
+/* Central */
+
+section.central{
+    height: 98vh;
+    background-image: url(../images/fundo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+.central .interface{
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.central .txt-central h1{
+    font-size: 4em;
+    line-height: 70px;
+    font-weight: 200;
+}
+
+.central .txt-central h1 span{
+    display: block;
+    font-weight: 800;
+}
+
+.central .txt-central p {
+    font-size: 20px;
+    font-weight: 300;
+    margin: 20px 0;
+}
+
+.central .txt-central p span{
+    display: block;
+    font-weight: 800;
+}
+
+.central button{
+    width: 220px;
+    height: 60px;
+    font-size: 17px;
+}
