@@ -9,7 +9,8 @@
 Esta landing page é um projeto de estudo desenvolvido com HTML, CSS e JavaScript, criado para a **Loja Magnolias** - uma loja especializada em velas aromáticas artesanais.  
 O objetivo é apresentar os produtos de forma elegante e aconchegante, com uma navegação simples e intuitiva.  
 
-🔗 **Confira o projeto:** [Loja Magnolias - Landing Page](https://landing-page-magnolias.vercel.app/)  
+🔗 **Confira o projeto online:**  
+<a href="https://landing-page-magnolias.vercel.app/" target="_blank" rel="noopener noreferrer">Loja Magnolias - Landing Page</a>
 
 ---
 
