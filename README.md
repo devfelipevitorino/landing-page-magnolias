@@ -1,20 +1,22 @@
 # 🕯️ Loja Magnolias - Landing Page  
 
-![Badge em Desenvolvimento](https://img.shields.io/badge/Status-Em%20Desenvolvimento-yellow)
-![HTML](https://img.shields.io/badge/HTML5-orange)
-![CSS](https://img.shields.io/badge/CSS3-blue)
-![JavaScript](https://img.shields.io/badge/JavaScript-yellow)
+![Badge em Desenvolvimento](https://img.shields.io/badge/Status-Em%20Desenvolvimento-yellow)  
+![HTML](https://img.shields.io/badge/HTML5-orange)  
+![CSS](https://img.shields.io/badge/CSS3-blue)  
+![JavaScript](https://img.shields.io/badge/JavaScript-yellow)  
 
 ## 🚀 Sobre o Projeto  
 Esta landing page é um projeto de estudo desenvolvido com HTML, CSS e JavaScript, criado para a **Loja Magnolias** - uma loja especializada em velas aromáticas artesanais.  
 O objetivo é apresentar os produtos de forma elegante e aconchegante, com uma navegação simples e intuitiva.  
+
+🔗 **Confira o projeto:** [Loja Magnolias - Landing Page](https://landing-page-magnolias.vercel.app/)  
 
 ---
 
 ## 🛠️ Tecnologias Utilizadas  
 - **Frontend:** HTML5, CSS3, JavaScript  
 - **Estilo:** CSS Flexbox e Grid  
-- **Interatividade:** JavaScript 
+- **Interatividade:** JavaScript  
 
 ## 📫 Contato  
 **Felipe Vitorino**  
