@@ -145,3 +145,57 @@ section.velas{
 .itens-container .txt-itens h3 span{
     font-weight: 300;
 }
+
+/* Contatos */
+
+section.contatos{
+    background-color: #fff;
+    padding: 80px 0;
+}
+
+.text-contato, .icone-contato{
+    display: inline-block;
+    width: 50%;
+    margin-right: -4px;
+    vertical-align: middle;
+}
+
+.contatos .text-contato h3{
+    font-size: 2.5em;
+    line-height: 50px;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+.contatos .text-contato h3 span{
+    display: block;
+    font-weight: 700;
+}
+
+.contatos .icone-contato a {
+    text-decoration: none;
+}
+
+.contatos .icone-contato button {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 60px;
+    width: 60%;
+    height: 60px;
+    margin: 0 auto 20px auto;
+    background-color: transparent;
+    border: 2px solid #000;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.contatos .icone-contato button i{
+    font-size: 20px;
+}
+.contatos .icone-contato button:hover{
+    background-color: #000;
+}
+.contatos .icone-contato button:hover i, .contatos .icone-contato button:hover p{
+    color: #fff;
+}
