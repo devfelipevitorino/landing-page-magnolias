@@ -23,14 +23,13 @@ header .btn-contato button, .central button{
     transition: .5s;
 }
 
-/* Header */
-
 header{
     width: 100%;
     padding: 20px 0;
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
+    background-color: rgba(5, 5, 5, 0.8);
 }
 
 header .interface{
@@ -72,8 +71,6 @@ header .btn-contato button:hover, .central button:hover{
     background-color: white;
     color: black;
 }
-
-/* Central */
 
 section.central{
     height: 98vh;
@@ -118,8 +115,6 @@ section.central{
     font-size: 17px;
 }
 
-/* Velas */
-
 section.velas{
     padding: 80px 0;
 }
@@ -146,7 +141,6 @@ section.velas{
     font-weight: 300;
 }
 
-/* Contatos */
 
 section.contatos{
     background-color: #fff;
