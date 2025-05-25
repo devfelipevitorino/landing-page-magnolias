@@ -198,8 +198,105 @@ section.contatos{
     color: #fff;
 }
 
-@media screen and(min-width: 1200px){
-    .logo .btn-contato{
-        padding: 20px;
+@media screen and (max-width: 900px) {
+    .interface {
+        padding: 0 10px;
+    }
+
+    header {
+        min-width: auto;
+        padding: 10px 0;
+    }
+
+    header .interface {
+        flex-direction: row;
+        align-items: center;
+        text-align: center;
+    }
+
+    header .menu-desktop {
+        display: none;
+    }
+
+    header .btn-contato {
+        margin-top: 10px;
+    }
+
+    section.central {
+        min-width: auto;
+        height: auto;
+        padding: 180px 0;
+        text-align: center;
+    }
+
+    .central .interface {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .central .txt-central h1 {
+        font-size: 2.5em;
+        line-height: 50px;
+    }
+
+    .central .txt-central p {
+        font-size: 16px;
+    }
+
+    .central button {
+        width: 180px;
+        height: 50px;
+        font-size: 15px;
+    }
+
+    .velas .itens-container {
+        flex-direction: column;
+        gap: 40px;
+        text-align: center;
+    }
+
+    .velas .itens-container .img-itens img {
+        max-width: 100%;
+    }
+
+    .velas .itens-container .txt-itens h3 {
+        font-size: 2em;
+        line-height: 40px;
+    }
+
+    .invertido {
+        flex-direction: column-reverse;
+    }
+
+    section.contatos {
+        min-width: auto;
+    }
+
+    .text-contato, .icone-contato {
+        display: block;
+        width: 100%;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .text-contato p {
+        margin-bottom: 20px;
+    }
+
+    .contatos .icone-contato button {
+        width: 90%;
+        font-size: 14px;
+        padding: 0 20px;
+        height: 50px;
+    }
+
+    .contatos .icone-contato button i {
+        font-size: 18px;
+    }
+
+    .contatos .text-contato h3 {
+        font-size: 2em;
+        line-height: 40px;
     }
 }
+
