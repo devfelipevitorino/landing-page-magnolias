@@ -301,5 +301,11 @@ section.contatos{
         font-size: 2em;
         line-height: 40px;
     }
+
+    .contatos .icone-contato button {
+        -webkit-tap-highlight-color: transparent;
+        -moz-tap-highlight-color: transparent;   
+        outline: none;                  
+    }
 }
 
