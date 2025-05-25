@@ -12,6 +12,7 @@ body{
 .interface{
     max-width: 1280px;
     margin: 0 auto;
+    padding: 0 20px;
 }
 
 header .btn-contato button, .central button{
@@ -30,6 +31,7 @@ header{
     top: 0;
     left: 0;
     background-color: rgba(5, 5, 5, 0.8);
+    min-width: 900px
 }
 
 header .interface{
@@ -79,6 +81,7 @@ section.central{
     background-size: cover;
     background-position: center;
     color: white;
+    min-width: 900px;
 }
 
 .central .interface{
@@ -145,6 +148,7 @@ section.velas{
 section.contatos{
     background-color: #fff;
     padding: 80px 0;
+    min-width: 900px;
 }
 
 .text-contato, .icone-contato{
@@ -192,4 +196,10 @@ section.contatos{
 }
 .contatos .icone-contato button:hover i, .contatos .icone-contato button:hover p{
     color: #fff;
+}
+
+@media screen and(min-width: 1200px){
+    .logo .btn-contato{
+        padding: 20px;
+    }
 }
