@@ -214,6 +214,10 @@ section.contatos{
         text-align: center;
     }
 
+    header .interface .logo img{
+        width: 70px;
+    }
+
     header .menu-desktop {
         display: none;
     }
@@ -269,6 +273,12 @@ section.contatos{
     .velas .interface article:nth-child(n+2) h3,
     .velas .interface article:nth-child(n+2) p {
         display: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    .velas .interface article:nth-child(n+2) {
+        margin-bottom: 0 !important;
     }
 
     section.contatos {
