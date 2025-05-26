@@ -321,15 +321,19 @@ section.contatos{
         font-size: 18px;
     }
 
-    .contatos .text-contato h3 {
+    .contatos .text-contato h3 {    
         font-size: 2em;
         line-height: 40px;
     }
 
-    .contatos .icone-contato button {
-        -webkit-tap-highlight-color: transparent;
-        -moz-tap-highlight-color: transparent;   
-        outline: none;                  
+    .contatos .icone-contato button i{
+        font-size: 20px;
+    }
+    .contatos .icone-contato button{
+        background-color: #000000;
+    }
+    .contatos .icone-contato button i, .contatos .icone-contato button p{
+        color: #fff;
     }
 }
 
